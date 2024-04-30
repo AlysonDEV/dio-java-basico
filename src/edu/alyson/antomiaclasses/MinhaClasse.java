@@ -1,8 +1,9 @@
+package edu.alyson.antomiaclasses;
 public class MinhaClasse {
     public static void main( String [] args) {
         // Contantes recebem a palavra final
         // String BR = "Brasil"
-        final String BR = "Brasil";
+        // final String BR = "Brasil";
 
         // Regras de variáveis
 
