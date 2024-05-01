@@ -19,7 +19,22 @@ public class TiposVariaveis {
         double salario = 1275.33;
         imprimir("Salário: ", String.valueOf(salario));
 
+
+        Separador(40);
+        int numeroTesteUnario = 5;
+        System.out.println("Numero 5 com o unário negativo: " + -numeroTesteUnario);
+
+        numeroTesteUnario = -numeroTesteUnario;
+        System.out.println("Numero 5 com o unário negativo: " + numeroTesteUnario);
+        
+        numeroTesteUnario = -numeroTesteUnario; // seria o mesmo que: numero = numero * -1;
+        System.out.println("Numero 5 com o unário negativo: " + numeroTesteUnario);
+
+
+        
     }
+
+    
 
     public static void imprimir(String... args) {
         final String MENSAGEM = "Método para imprimir informações: ";
@@ -36,12 +51,19 @@ public class TiposVariaveis {
             totalImpressoes++;
         }
     }
-
+    
     public static void Separador(Byte total) {
         for (byte i = 0; i < total; i++) {
             System.out.print("-");
         }
         System.out.println(""); // Apenas para quebrar a linha
+    }
 
+    private static void Separador(int totalVelho) {
+        byte total = (byte) totalVelho;
+        for (byte i = 0; i < total; i++) {
+            System.out.print("-");
+        }
+        System.out.println(""); // Apenas para quebrar a linha
     }
 }
