@@ -30,6 +30,22 @@ public class TiposVariaveis {
         numeroTesteUnario = -numeroTesteUnario; // seria o mesmo que: numero = numero * -1;
         System.out.println("Numero 5 com o unário negativo: " + numeroTesteUnario);
 
+        Separador(40);
+
+        System.out.println("Comparador ternário");
+        int comparadorA = 5;
+        int comparadorB = 6;
+        // String resultado;
+
+        /*if (comparadorA == comparadorB) {
+            resultado = "Verdadeiro";
+        } else {
+            resultado = "Falso";
+        }*/
+
+        String resultado = comparadorA == comparadorB ? "Verdadeiro" : "Falso"; // Mesmo resultado de um if normal
+
+        System.out.println("A comparação entre os valores A(" + comparadorA + ") e B(" + comparadorB + ") é " + resultado);
 
         
     }
