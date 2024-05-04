@@ -1,0 +1,76 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AboutMeScanner",
+            "request": "launch",
+            "mainClass": "edu.alyson.terminalargumentos.AboutMeScanner",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "edu.alyson.App",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "BoletinEscolar",
+            "request": "launch",
+            "mainClass": "edu.alyson.antomiaclasses.BoletinEscolar",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.alyson.antomiaclasses.MinhaClasse",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.alyson.sistemasmarttv.Usuario",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.alyson.terminalargumentos.AboutMe",
+            "projectName": "basico_321b31f3",
+            "args": [
+                "Alyson",
+                "Ronnan",
+                "36",
+                "1.67"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse(1)",
+            "request": "launch",
+            "mainClass": "edu.alyson.terminalargumentos.MinhaClasse",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.alyson.tiposvariaveis.TiposVariaveis",
+            "projectName": "basico_321b31f3"
+        }
+    ]
+}
