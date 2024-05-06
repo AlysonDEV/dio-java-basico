@@ -61,5 +61,33 @@ flowchart LR
     classDef caixa fill:#788896,color:#000
 ```
 
+### Encadeadas
+
+O processo de fluxo pode conter mais de uma condicional dentro de outra.
+
+```mermaid
+flowchart LR
+    RE[Resultado Escolar] --> I 
+    I --> V1
+    V1 --> |Sim| APROVADO --> F
+    V1 --> |Não| V2 
+    V2 --> |Sim| RECUPERAÇÃO --> F
+    V2 --> |Não| REPROVADO --> F
+
+    subgraph Fluxo
+        I(Início):::secundaria
+        V1{Nota >= 7}
+        V2{Nota >= 5 e < 7> ?}
+        APROVADO[Imprime Aprovado]:::caixa
+        REPROVADO[Imprime Reprovado]:::caixa-vermelha
+        RECUPERAÇÃO[Imprime Recuperação]:::caixa-laranga
+        F(Final):::secundaria
+        end
+    
+    classDef secundaria fill:#E8833A,color:#000
+    classDef caixa fill:#788896,color:#000
+    classDef caixa-vermelha fill:red
+    classDef caixa-laranga fill:orange,color:#000
+``` 
 
 
