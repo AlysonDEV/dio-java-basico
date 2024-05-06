@@ -93,3 +93,8 @@ flowchart LR
 ### Ternária
 
 Server para reduzir o tamanho de uma condicional, quando ela dever fazer apenas uma ação exemplo trazer o resultado se o alunos está aprovado.
+
+### Switch Case
+
+Quando eu tenho uma variávei e posso ter varias rotas caso o tenha um valor definido com verdadeiro.
+Esse modo é menos "verboso" do que o procedimento do ```if e else if```.

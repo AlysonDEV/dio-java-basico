@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlanoOperadora",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.estruturacondicional.PlanoOperadora",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "SistemaMedida",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.estruturacondicional.SistemaMedida",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar",
             "request": "launch",
             "mainClass": "edu.alyson.controlefluxos.estruturacondicional.ResultadoEscolar",
