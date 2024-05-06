@@ -98,3 +98,17 @@ Server para reduzir o tamanho de uma condicional, quando ela dever fazer apenas 
 
 Quando eu tenho uma variávei e posso ter varias rotas caso o tenha um valor definido com verdadeiro.
 Esse modo é menos "verboso" do que o procedimento do ```if e else if```.
+
+## Estrutura de repetição
+
+Laços de repetição, também conhecidos como laços de iteração ou simplesmente loops, são comandos que permitem iteração de código, ou seja, que comandos presentes no bloco sejam repetidos diversas vezes.
+
+- [Documentação de repetições](https://diegomariano.com/lacos-de-repeticao-2/)
+
+
+### FOR (para)
+
+
+### WHILE (enquanto)
+
+### DO WHILE (faça enquanto)

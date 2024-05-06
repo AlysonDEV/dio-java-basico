@@ -1,4 +1,4 @@
-package edu.alyson.controlefluxos.estruturacondicional;
+package edu.alyson.controlefluxos.condicional;
 
 public class ResultadoEscolar {
     public static void main(String[] args) {
