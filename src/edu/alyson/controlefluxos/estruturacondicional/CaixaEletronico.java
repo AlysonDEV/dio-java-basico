@@ -1,5 +1,5 @@
-package edu.alyson.controlefluxos;
+package edu.alyson.controlefluxos.estruturacondicional;
 
-public class EstruturasCondicionais {
+public class CaixaEletronico {
 
 }
