@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ResultadoEscolar",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.estruturacondicional.ResultadoEscolar",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
             "name": "AboutMeScanner",
             "request": "launch",
             "mainClass": "edu.alyson.terminalargumentos.AboutMeScanner",

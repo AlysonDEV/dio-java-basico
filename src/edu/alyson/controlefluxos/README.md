@@ -44,7 +44,7 @@ O fluxo diagrama abaixo mostra a nota dependo se é maior que 6 para o resultado
 ```mermaid
 flowchart LR
     A[Resultado Escolar] --> I 
-    I --> C{Nota >= 6}
+    I --> C{Nota >= 7}
     C --> |Sim| D[Imprime Aprovado]
     C --> |Não| E[Imprime Reprovado]
     D --> F
