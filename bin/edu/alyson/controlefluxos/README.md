@@ -2,11 +2,11 @@
 
 Essa parte dos estudos é para praticar e aprofundar o conhecimentos em:
 
-- [ ] Estruturas condicionais: ```if-else, switch-case.```
+- [x] Estruturas condicionais: ```if-else, switch-case.```
 
-- [ ] Estruturas de repetição: ```for, while, do-while.```
+- [x] Estruturas de repetição: ```for, while, do-while.```
 
-- [ ] Estruturas de exceções: ```try-catch-finally, throw.```
+- [x] Estruturas de exceções: ```try-catch-finally, throw.```
 
 
 ## Estruturas condicionais
