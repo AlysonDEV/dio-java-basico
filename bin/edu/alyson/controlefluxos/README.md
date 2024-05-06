@@ -11,12 +11,15 @@ Essa parte dos estudos é para praticar e aprofundar o conhecimentos em:
 
 ## Estruturas condicionais
 
-Para praticar foi criado o projeto simples para simular uma aplicação de saque:
+### Simples
+
+Para praticar foi criado o projeto simples aonde temos um caminho caso a condicional seja verdadeiro. 
+Para simular uma aplicação de saque:
 
 ```mermaid
 flowchart LR
     A[Caixa Eletrônico] --> I(Início):::secundaria --> B[Sacar]:::caixa
-    B --> C{Saldo}
+    B --> C{Saldo > 0}
     C -->|Sim| D[Atualizar Saldo]
     C -->|Não| E(Fim)
     D --> E:::secundaria
@@ -31,4 +34,32 @@ flowchart LR
     classDef secundaria fill:#E8833A,color:#000
     classDef caixa fill:#788896,color:#000
 ```
+
+### Compostas
+
+O processo condicinal composto é quando pode acontecer duas ou mais ações diferentes dependo do resultado.
+
+O fluxo diagrama abaixo mostra a nota dependo se é maior que 6 para o resultado ser aprovado :
+
+```mermaid
+flowchart LR
+    A[Resultado Escolar] --> I 
+    I --> C{Nota >= 6}
+    C --> |Sim| D[Imprime Aprovado]
+    C --> |Não| E[Imprime Reprovado]
+    D --> F
+    E --> F
+    subgraph Fluxo
+        I(Início):::secundaria
+        C
+        D:::caixa
+        E:::caixa
+        F(Final):::secundaria
+        end
+    
+    classDef secundaria fill:#E8833A,color:#000
+    classDef caixa fill:#788896,color:#000
+```
+
+
 
