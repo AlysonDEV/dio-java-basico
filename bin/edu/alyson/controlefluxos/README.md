@@ -90,4 +90,6 @@ flowchart LR
     classDef caixa-laranga fill:orange,color:#000
 ``` 
 
+### Ternária
 
+Server para reduzir o tamanho de uma condicional, quando ela dever fazer apenas uma ação exemplo trazer o resultado se o alunos está aprovado.
