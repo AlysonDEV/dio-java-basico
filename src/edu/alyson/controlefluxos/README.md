@@ -108,7 +108,32 @@ Laços de repetição, também conhecidos como laços de iteração ou simplesme
 
 ### FOR (para)
 
+O ```for``` podemos fazer iterações em contagens, listas e objetos. Caso nescessário posso utilizar o ```break``` para interomper uma iteração e o ```continue``` que vai fazer a "saldo" na repetição (pula a parte de que for validada com alguma condicional).
+
+```mermaid
+flowchart LR
+    Start --> A
+    A --> B 
+    B --> C
+    C --> X1
+    X1 --> |Não| B
+    X1 --> |Sim| End
+    End
+        
+    Start[Início]:::secundaria
+    End[Final]:::secundaria
+    A[Contador = 0]
+    B[Contador++]
+    C[/Imprimir Contador/]
+    X1{Contador > 100 ?}
+
+
+    
+    classDef secundaria fill:#E8833A,color:#000
+```
 
 ### WHILE (enquanto)
+
+Para contrução do ```while``` é importante que seja definido quando o vai para ou encerrar a processo de iteraão.
 
 ### DO WHILE (faça enquanto)

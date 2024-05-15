@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploExcecoes",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.excecoes.ExemploExcecoes",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "TesteContadorNumeroPositivos",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.repeticoes.TesteContadorNumeroPositivos",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "ExemploBreakContinue",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.repeticoes.ExemploBreakContinue",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "ExemploForEach",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.repeticoes.ExemploForEach",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "ExemploFor2",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.repeticoes.ExemploFor2",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
             "name": "ExemploFor",
             "request": "launch",
             "mainClass": "edu.alyson.controlefluxos.repeticoes.ExemploFor",
