@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProcessoSeletivo",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.cases.candidatura.ProcessoSeletivo",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
             "name": "ExemploExcecoes",
             "request": "launch",
             "mainClass": "edu.alyson.controlefluxos.excecoes.ExemploExcecoes",
