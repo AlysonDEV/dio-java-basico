@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VerificadorElegibilidadeConta",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.VerificadorElegibilidadeConta",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "VerificadorNumeroConta",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.VerificadorNumeroConta",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "DesafioBancarioDIO",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.DesafioBancarioDIO",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
+            "name": "desafioBancario",
+            "request": "launch",
+            "mainClass": "edu.alyson.controlefluxos.desafioBancario",
+            "projectName": "basico_321b31f3"
+        },
+        {
+            "type": "java",
             "name": "ProcessoSeletivo",
             "request": "launch",
             "mainClass": "edu.alyson.controlefluxos.cases.candidatura.ProcessoSeletivo",
